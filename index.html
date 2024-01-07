@@ -1,14 +1,84 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fa" dir="rtl">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>First Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="stylesheet" href="asessts/bootstrap-5.3.2-dist/css/bootstrap.rtl.min.css" />
 </head>
 
 <body>
+    <!-- Header -->
+    <header class="header">
+        <!-- NavBar -->
 
+        <nav class="navbar navbar-expand-sm navbar-light fixed-top header-scrolled">
+            <div class="container">
+                <a class="navbar-brand" href="javascript:void(0)">M S H</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+                <div class="collapse navbar-collapse" id="mynavbar">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript:void(0)">صفحه اصلی</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">محصولات</a
+                >
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">لورم اپسوم</a></li>
+                        <li><a class="dropdown-item" href="#">لورم</a></li>
+                        <li>
+                            <a class="dropdown-item" href="#">لورم متن ساخته گی</a>
+                        </li>
+                    </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0)">در باره ما </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0)">تماس با ما</a>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- NavBar END -->
+    </header>
+    <!-- Header End -->
+    <!-- Intro -->
+
+    <section class="intro d-flex align-items-center">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h3 class="fw-bold text-primary">لورم اپسوم متن ساخته گی با تولید ساده نا مفهوم از صنعت چاپ</h3>
+
+                    <h5 class="text-mute">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت </h5>
+                    <button class="btn btn-lg btn-primary">لورم ایپسوم</button>
+                </div>
+                <div class="col-lg-6">
+                    <img src="asessts/images/intro/intro-img.png" alt="Intro">
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        // header-scrolled
+        var nav = document.getElementById("nav1");
+        console.log(window.scrollY);
+        if (window.scrollY > 60) {
+            nav.style.boxShadow = "0px 2px 20px rgb(1 41 112/10%)";
+            nav.style.backgroundColor = "#fff";
+        }
+    </script>
+    <script src="asessts/bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "Vazir";
+    src: url(asessts/fonts/Vazir.eot);
+    src: url(asessts/fonts/Vazir.eot?#iefix) format("embedded-opentype"), url(asessts/fonts/Vazir.woff2) format("woff2"), url(asessts/fonts/Vazir.woff)format("woff"), url(asessts/fonts/Vazir.ttf) format("truetype");
+}
+
+body {
+    font-family: "Vazir" !important;
+}
+
+.header-scrolled {
+    background-color: white;
+    box-shadow: 0px 2px 20px rgb(1 41 112/10%);
+}
+
+@media (max-width: 992px) {
+    .header-scrolled {
+        background-color: #fff;
+    }
+}
+
+.intro {
+    height: 100vh;
+    width: 100%;
+    background: url("asessts/images/intro/intro-bg.png") top center no-repeat;
+    background-size: contain;
+}
