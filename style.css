@@ -229,3 +229,52 @@ p {
 .plans .card:hover {
     transform: scale(1.1);
 }
+
+
+/* Contact */
+
+.info-box,
+.contact-form {
+    background-color: #fafbff;
+    padding: 30px;
+}
+
+.info-box i {
+    color: #4154f1;
+    line-height: 0px;
+    font-size: 38px;
+}
+
+.info-box .clphone {
+    direction: ltr;
+    text-align: right;
+}
+
+.contact-form {
+    height: 100%;
+}
+
+
+/* Footer */
+
+.social-link i {
+    font-size: 20px;
+    color: rgba(1, 41, 112, .5);
+}
+
+.footer hr {
+    width: 70%;
+    height: 5px;
+}
+
+.footer .footer-link a {
+    color: #000;
+}
+
+.footer .footer-link a i {
+    font-size: 13px;
+}
+
+.footer-link li {
+    margin-top: 10px;
+}
