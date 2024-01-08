@@ -218,3 +218,14 @@ p {
 .green .read-more span {
     color: #08da4e;
 }
+
+
+/* Plans */
+
+.plans .card {
+    transition: all .4s;
+}
+
+.plans .card:hover {
+    transform: scale(1.1);
+}
