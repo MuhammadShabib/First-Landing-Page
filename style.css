@@ -8,6 +8,10 @@ body {
     font-family: "Vazir" !important;
 }
 
+a {
+    text-decoration: none !important;
+}
+
 
 /* Header */
 
@@ -86,4 +90,131 @@ p {
 .features i {
     font-size: 44px;
     color: #4154f1;
+}
+
+
+/* Setvices */
+
+.service-box {
+    box-shadow: 0 0 30px rgba(1, 41, 112, 0.08);
+    padding: 60px 30px;
+    text-align: center;
+    border-radius: 5px;
+    transition: all .6s;
+}
+
+.service-box>i {
+    font-size: 36px;
+    padding: 20px;
+    line-height: 0;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+.read-more i {
+    line-height: 0;
+}
+
+.blue .read-more span {
+    color: #2db6fa;
+}
+
+.blue {
+    border-bottom: 3px solid #2db6fa;
+}
+
+.blue>i {
+    background: #dbf3fe;
+    color: #2db6fa;
+}
+
+.blue:hover {
+    background-color: #2db6fa;
+    color: #fff;
+}
+
+.blue:hover .read-more>i {
+    color: #fff;
+}
+
+.blue:hover .read-more span {
+    color: #fff;
+}
+
+.blue:hover .blue>i {
+    background-color: #fff;
+}
+
+
+/* orange */
+
+.orange {
+    border-bottom: 3px solid #f68c09;
+}
+
+.orange>i {
+    background: #fde3c4;
+    color: #f68c09;
+}
+
+.orange:hover {
+    background-color: #f68c09;
+    color: #fff;
+}
+
+.orange:hover .read-more>i {
+    color: #fff;
+}
+
+.orange:hover .read-more span {
+    color: #fff;
+}
+
+.orange:hover .blue>i {
+    background-color: #fff;
+}
+
+.orange .read-more i {
+    color: #f68c09;
+}
+
+.orange .read-more span {
+    color: #f68c09;
+}
+
+
+/* green */
+
+.green {
+    border-bottom: 3px solid #08da4e;
+}
+
+.green>i {
+    background: #cffddf;
+    color: #08da4e;
+}
+
+.green:hover {
+    background-color: #08da4e;
+    color: #fff;
+}
+
+.green:hover .read-more>i {
+    color: #fff;
+}
+
+.green:hover .read-more span {
+    color: #fff;
+}
+
+.green:hover .blue>i {
+    background-color: #fff;
+}
+
+.green .read-more i {
+    color: #08da4e;
+}
+
+.green .read-more span {
+    color: #08da4e;
 }
